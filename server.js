@@ -4,7 +4,7 @@ const app = express()
 
 //routes
 app.get('/', (req,res) => {
-    res.send('Holis')
+    res.send('Maincra')
 })
 
 app.listen(3001, ()=> {
